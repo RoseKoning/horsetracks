@@ -6,7 +6,7 @@ import Error from './Pages/Error';
 import Contact from './Pages/Contact';
 import HorseTabs from './Pages/TabPages/HorseTabs';
 import Navigationbar from './Components/Navbar/Navigationbar';
-
+import Login from './Pages/Login';
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
       <Route path="/about" component={About}/>
       <Route path="/contact" component={Contact}/>
       <Route path="/horse" component={HorseTabs}/>
+      <Route path="/login" component={Login} />
       <Route component={Error}/>
 
       </Switch>
